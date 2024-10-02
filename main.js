@@ -1,6 +1,6 @@
 import * as THREE from 'three';
-import { STLLoader } from './node_modules/three/examples/jsm/loaders/STLLoader.js';
-import { PointerLockControls } from './node_modules/three/examples/jsm/controls/PointerLockControls.js';
+import { STLLoader } from 'node_modules/three/examples/jsm/loaders/STLLoader.js';
+import { PointerLockControls } from 'node_modules/three/examples/jsm/controls/PointerLockControls.js';
 
 // Scene setup
 const scene = new THREE.Scene();
